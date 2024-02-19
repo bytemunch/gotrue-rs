@@ -18,6 +18,7 @@ pub struct Api {
     client: reqwest::Client,
 }
 
+#[derive(Clone)]
 pub enum EmailOrPhone {
     Email(String),
     Phone(String),
