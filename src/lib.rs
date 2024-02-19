@@ -37,7 +37,7 @@
 mod api;
 mod client;
 pub mod error;
-mod session;
+pub mod session;
 mod user;
 mod user_attributes;
 mod user_list;
