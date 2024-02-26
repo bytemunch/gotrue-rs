@@ -12,6 +12,7 @@ use crate::{
     user_update::UserUpdate,
 };
 
+#[derive(Clone)]
 pub struct Api {
     url: String,
     headers: HeaderMap,
